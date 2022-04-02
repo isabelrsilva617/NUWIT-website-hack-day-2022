@@ -15,3 +15,7 @@
 .blue {
     background-color: blue;
 }
+
+.nav-item {
+    margin: 24px;
+}

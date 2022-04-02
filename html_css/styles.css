@@ -1,0 +1,32 @@
+body {
+    background-color:lightblue;
+    /* "Block" is the default and gives every new item a new line. "Inine" gets everything
+    in the same line. "Flex" is flexible where it tries to get everything in a new line but if it doesnt 
+    fit it just moved on*/
+    display: flex;
+}
+.First {
+    color: purple;
+}
+.Second {
+    color: brown;
+}
+.group-text {
+    /* Margin sets a margin on all sides. Adds space between this item and others*/
+    margin: 24px;
+    /*Padding is different from margin. Adds space between content and the edge of the component*/
+    padding: 24px;
+    background-color: white;
+
+}
+img {
+    height: 400px;
+    width: 400px;
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+}
